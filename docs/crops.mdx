@@ -1,0 +1,87 @@
+---
+sidebar_position: 3
+---
+
+# 种植系统
+
+## 种植盆
+
+用来种植**作物**。
+ - 种植盆无法通过水源或水桶补充水分！使用浇水壶、洒水器或吸收雨滴来使其变得湿润。
+ - 每一个种植盆最大含水量为：5
+
+![种植盆](https://vip.123pan.cn/1815896253/ImagesBed/13_image.png)
+
+## 浇水壶、洒水器
+
+### 浇水壶
+
+ - 通过点击水源为水壶装水，用来浇灌种植盆或为洒水器补充水。
+
+|图标|名称|容量|浇灌范围|
+| :------------: | :------------: | :------------: | :------------: |
+|![铜制洒水壶](https://vip.123pan.cn/1815896253/ImagesBed/14_image.png)|铜制洒水壶|3|1x1|
+|![铁制洒水壶](https://vip.123pan.cn/1815896253/ImagesBed/15_image.png)|铁制洒水壶|4|1x3|
+|![金制洒水壶](https://vip.123pan.cn/1815896253/ImagesBed/16_image.png)|金制洒水壶|5|2x2|
+|![钻制洒水壶](https://vip.123pan.cn/1815896253/ImagesBed/17_image.png)|钻制洒水壶|3|3x2|
+
+### 洒水器
+ - 自动为种植盆补充水分
+
+|   |   |   |   |
+| :------------: | :------------: | :------------: | :------------: |
+|![洒水器](https://vip.123pan.cn/1815896253/ImagesBed/18_image.png)|洒水器|5|□□□<br />□■□<br />□□□|
+|![高质量洒水器](https://vip.123pan.cn/1815896253/ImagesBed/19_image.png)|高质量洒水器|5|□□□□□<br />□□□□□<br />□□■□□<br />□□□□□<br />□□□□□|
+|![超级洒水器](https://vip.123pan.cn/1815896253/ImagesBed/20_image.png)|超级洒水器|3|□□□□□□□<br />□□□□□□□<br />□□□□□□□<br />□□□■□□□<br />□□□□□□□<br />□□□□□□□<br />□□□□□□□|
+
+## 肥料
+
+ - 右击种植盆进行使用，用来改变种植盆的土壤属性
+
+|图标|名称|作用|
+| :------------: | :------------: | :------------: |
+|![洒水器](https://vip.123pan.cn/1815896253/ImagesBed/21_image.png)|肥料、优质肥料、金克拉肥料|提升星级作物掉落的概率|
+|![洒水器](https://vip.123pan.cn/1815896253/ImagesBed/22_image.png)|生长速度提升Ⅰ、Ⅱ、Ⅲ|加速作物生长|
+|![洒水器](https://vip.123pan.cn/1815896253/ImagesBed/23_image.png)|魔瓶、中级魔瓶、高级魔瓶|作物具有更高的变异概率(变成巨型作物)|
+|![洒水器](https://vip.123pan.cn/1815896253/ImagesBed/24_image.png)|产量提升、优质产量提升、产量超级加倍|增加作物产量|
+|![洒水器](https://vip.123pan.cn/1815896253/ImagesBed/25_image.png)|土地饱肥Ⅰ、Ⅱ、Ⅲ|减少水分消耗速度|
+
+## 作物
+
+ - 使用种子在种植盆上栽种，无法种在耕地上
+ - 每种作物具有特定的**生长季节**！在非生长季节会枯萎死亡或无法栽种
+ - 除苹果外，其他作物果实都具有至少三个等级：普通、银星、金星。部分作物有概率变异成巨型作物，列表中用**黄色**标记出来。
+
+| 作物图片 | 作物名称 | 生长季节 |
+| :--: | :--: | :--: |
+| ![苹果](https://vip.123pan.cn/1815896253/ImagesBed/26_image.png) | 苹果 | 四季 |
+| ![卷心菜](https://vip.123pan.cn/1815896253/ImagesBed/27_image.png) | <Highlight color="yellow">卷心菜</Highlight> | 春、夏 |
+| ![大白菜](https://vip.123pan.cn/1815896253/ImagesBed/28_image.png) | 大白菜 | 春、夏、秋 |
+| ![玉米](https://vip.123pan.cn/1815896253/ImagesBed/29_image.png) | 玉米 | 夏、秋 |
+| ![茄子](https://vip.123pan.cn/1815896253/ImagesBed/30_image.png) | 茄子 | 夏、秋 |
+| ![大蒜](https://vip.123pan.cn/1815896253/ImagesBed/31_image.png) | 大蒜 | 四季 |
+| ![葡萄](https://vip.123pan.cn/1815896253/ImagesBed/32_image.png) | 葡萄 | 春、夏、秋 |
+| ![啤酒花](https://vip.123pan.cn/1815896253/ImagesBed/33_image.png) | 啤酒花 | 夏 |
+| ![辣椒](https://vip.123pan.cn/1815896253/ImagesBed/34_image.png) | 辣椒 | 夏、秋 |
+| ![菠萝](https://vip.123pan.cn/1815896253/ImagesBed/35_image.png) | <Highlight color="yellow">菠萝</Highlight> | 夏 |
+| ![火龙果](https://vip.123pan.cn/1815896253/ImagesBed/36_image.png) | 火龙果 | 春、夏、秋 |
+| ![西红柿](https://vip.123pan.cn/1815896253/ImagesBed/37_image.png) | <Highlight color="yellow">西红柿</Highlight> | 春、秋 |
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+    }}>
+    {children}
+  </span>
+);
+
+## 拓展
+
+|图标|名称|作用|
+| :--: | :--: | :--: |
+|无|乌鸦|会攻击作物，使作物死亡|
+| ![稻草人](https://vip.123pan.cn/1815896253/ImagesBed/38_image.png)<img src="https://vip.123pan.cn/1815896253/ImagesBed/39_image.png" alt="稻草人" width="200" /> | 苹果 | 四季 |
+| <img src="https://vip.123pan.cn/1815896253/ImagesBed/40_image.png" alt="作物死亡状态" width="200" /> | 作物死亡状态 | 代表作物不再生长 |
+| ![土壤测量仪](https://vip.123pan.cn/1815896253/ImagesBed/41_image.png)<img src="https://vip.123pan.cn/1815896253/ImagesBed/42_image.png" alt="土壤测量仪" width="200" /> | 土壤测量仪 | 测量盆栽含水量和肥料度 |
+| ![温室玻璃](https://vip.123pan.cn/1815896253/ImagesBed/43_image.png)<img src="https://vip.123pan.cn/1815896253/ImagesBed/44_image.png" alt="温室玻璃" width="200" /> | 温室玻璃 | 在冬季也能种植春季作物，稍微加快作物生长速度 |
