@@ -166,6 +166,10 @@ const config = {
                 label: '10月1日服务器硬件维护报告',
                 to: '/blog/2024-10-01-server-hardware-maintenance',
               },
+              {
+                label: '开服仪式邀请函',
+                to: '/blog/invitation-letter-for-server-opening-ceremony',
+              },
             ],
           },
         ],
