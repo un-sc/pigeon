@@ -6,3 +6,11 @@ server-maintenance-report:
   label: 服务器维护报告
   permalink: /server-maintenance-report
   description: 服务器维护报告
+server-activity:
+  label: 服务器活动
+  permalink: /server-activity
+  description: 服务器活动
+celebration-ceremony:
+  label: 庆祝典礼
+  permalink: /celebration-ceremony
+  description: 庆祝典礼

@@ -16,3 +16,5 @@ tags: [hardware-maintenance, server-maintenance-report]
 3.取消CPU超频，当前CPUZ单核930至935分左右，CInebench r23单核2100至2200分左右
 
 4.安装远程服务器电源管理卡，可以远程软开关机，强制开关机，微信小程序可控
+
+<!-- truncate -->
