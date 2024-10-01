@@ -13,11 +13,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://viewcb.net',
   baseUrl: '/',
 
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'un-sc', // Usually your GitHub org/user name.
+  projectName: '鸽子林官网', // Usually your repo name.
 
   trailingSlash: false, // 全局设置 URL 是否需要斜线
 
@@ -98,6 +98,7 @@ const config = {
             label: 'Wiki文档',
           },
           { to: '/docs/map', label: '服务器在线地图', position: 'left' },
+          { to: '/blog/', label: 'BLOG', position: 'left' },
         ],
       },
       footer: {
@@ -126,6 +127,14 @@ const config = {
                 label: '食物系统',
                 to: '/docs/foods',
               },
+              {
+                label: '服务器在线地图',
+                to: '/docs/map',
+              },
+              {
+                label: '服务器状态总览',
+                to: '/docs/status',
+              },
             ],
           },
           {
@@ -147,6 +156,15 @@ const config = {
               {
                 label: 'BiliBili - NEW66',
                 to: 'https://space.bilibili.com/62071330?spm_id_from=333.337.search-card.all.click',
+              },
+            ],
+          },
+          {
+            title: 'BLOG',
+            items: [
+              {
+                label: '10月1日服务器硬件维护报告',
+                to: '/blog/2024-10-01-server-hardware-maintenance',
               },
             ],
           },
