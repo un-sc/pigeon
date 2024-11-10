@@ -2,7 +2,7 @@
 slug: 2024-10-01-server-hardware-maintenance
 title: 10月1日服务器硬件维护报告
 authors: LiananProMax
-tags: [hardware-maintenance, server-maintenance-report]
+tags: [server-maintenance-report]
 ---
 
 维护内容：

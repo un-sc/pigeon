@@ -170,6 +170,10 @@ const config = {
                 label: '开服仪式邀请函',
                 to: '/blog/invitation-letter-for-server-opening-ceremony',
               },
+              {
+                label: '服务器现已落实全面每日备份',
+                to: '/blog/implement-daily-backup',
+              },
             ],
           },
         ],
