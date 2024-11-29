@@ -157,6 +157,10 @@ const config = {
                 label: 'BiliBili - NEW66',
                 to: 'https://space.bilibili.com/62071330?spm_id_from=333.337.search-card.all.click',
               },
+              {
+                label: '我们在McMod的宣传贴',
+                to: 'https://play.mcmod.cn/sv20187869.html',
+              },
             ],
           },
           {
@@ -173,6 +177,18 @@ const config = {
               {
                 label: '服务器现已落实全面每日备份',
                 to: '/blog/implement-daily-backup',
+              },
+              {
+                label: '服务器1.21.1大版本升级',
+                to: '/blog/major-version-upgrade',
+              },
+              {
+                label: '基岩版可用版本',
+                to: '/blog/be-available-versions',
+              },
+              {
+                label: '一阶段开放10余个小游戏',
+                to: '/blog/open-more-than-10-games',
               },
             ],
           },
